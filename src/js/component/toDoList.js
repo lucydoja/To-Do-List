@@ -68,7 +68,7 @@ export function ToDo() {
 							</div>
 							<div>
 								<i
-									className="fas fa-trash-alt"
+									className="fas fa-trash-alt mt-2"
 									onClick={() => Borrar(item.id)}></i>
 							</div>
 						</li>
