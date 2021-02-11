@@ -1,13 +1,49 @@
 @import "~bootstrap/scss/bootstrap.scss";
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
 
-/* 
+body {
+    background-color: black;
+    
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.contenido{
+    background-color: white;
+    width: 60vw;
+    height: auto;
+    box-shadow: 0px 0px 10px 0px rgb(163, 163, 163);
+    margin: auto;
+}
 
-*/
+h1{
+    font-family: 'Dancing Script', cursive;
+    color: white;
+    margin : 50px;
+    font-size: 70px;
+    font-weight: 400;
+    
+}
+
+.list-group-item{
+  font-size: 25px; 
+overflow: auto;
+ 
+}
+
+#pie{
+    font-size: 15px;
+    margin-left: 20px;
+    padding: 10px;
+    color: gray;
+}
+.form-control{
+    font-size: 20px; 
+    border: 0;
+    box-shadow: none; 
+
+}
+
+.fas{
+    align-content: end;
+    cursor: pointer;
+}
+
